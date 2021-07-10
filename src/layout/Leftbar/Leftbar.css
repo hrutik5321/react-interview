@@ -14,15 +14,20 @@ li {
   display: inline-block;
   padding: 10px;
   width: 80%;
-  border-bottom: 1px solid white;
   color: white;
   font-weight: bold;
   font-size: 18px;
 }
+
+li:not(:last-child) {
+  border-bottom: 1px solid white;
+}
+
 .nav-link {
   text-decoration: none;
   color: aliceblue;
 }
+
 .nav-link-active {
   color: greenyellow;
 }

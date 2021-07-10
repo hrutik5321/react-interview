@@ -25,7 +25,12 @@
   height: 15px;
   border-radius: 50%;
   background-color: black;
-  position: relative;
+}
+.content1-btn-wt {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: white;
 }
 .content1-btn::before {
   width: 18px;

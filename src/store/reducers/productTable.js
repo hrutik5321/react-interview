@@ -4,7 +4,7 @@ const tableContent = [
     category: "Seeds/Seedings",
     image:
       "https://5.imimg.com/data5/ME/DW/MY-2994153/coriander-seed-500x500.jpg",
-    description: "Chili Sakata 651(1500 seeds)",
+    description: "Chin Sakata 651(1500 seeds)",
     quantity: 26,
   },
   {
@@ -34,7 +34,7 @@ const tableContent = [
     index: 5,
     category: "Growing Medium",
     image:
-      "https://images-na.ssl-images-amazon.com/images/I/51JPmjuf2RL._AC_.jpg",
+      "https://5.imimg.com/data5/ME/DW/MY-2994153/coriander-seed-500x500.jpg",
     description: "Acme Brand Cocohusk - 50kg",
     quantity: 50,
   },

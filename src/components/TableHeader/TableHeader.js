@@ -26,8 +26,8 @@ function TableHeader({ downarrow }) {
         className="tableHeader-content1"
         onClick={() => dispatch(toggleTable())}
       >
-        <span className="content1-btn"></span>
-        <span style={{ marginLeft: "15px" }}>AGBuyx3042020_1042</span>
+        <span className={downarrow ? "content1-btn-wt" : "content1-btn"}></span>
+        <span style={{ marginLeft: "15px" }}>AGBUY13042020_1042</span>
         {downarrow ? (
           <span style={{ marginLeft: "15px" }}>
             <i class="fas fa-chevron-down"></i>
@@ -45,8 +45,8 @@ function TableHeader({ downarrow }) {
           className="tableHeader-image"
         />
         <div className="avatar-info">
-          <h4>Maxico Leet</h4>
-          <p>hruouhs djsnfkdsn</p>
+          <h4>Alex Lee</h4>
+          <p>Mon, 13 Apr, 10:42 AM</p>
         </div>
       </div>
       <div className="tableHeader-content1">
@@ -60,7 +60,7 @@ function TableHeader({ downarrow }) {
             {...csvReport}
             style={{ textDecoration: "none", color: "black" }}
           >
-            EXEL sheet foe kmksdmkvns
+            RFQList_13042020_1042
           </CSVLink>
         </span>
         <span style={{ marginLeft: "10px" }}>

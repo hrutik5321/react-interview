@@ -42,6 +42,15 @@ function Leftbar() {
             Agri-input Purchase Request
           </NavLink>
         </li>
+        <li style={{ marginTop: "250px", borderTop: "1px solid white" }}>
+          <NavLink
+            to="/taxmaster"
+            className="nav-link"
+            activeClassName="nav-link-active"
+          >
+            Tax Master Maintenance
+          </NavLink>
+        </li>
       </ul>
     </div>
   );
