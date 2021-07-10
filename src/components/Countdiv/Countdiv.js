@@ -5,9 +5,9 @@ import "./Countdiv.css";
 function Countdiv() {
   const counts = [
     { count: 1, text: "Pending" },
-    { count: 2, text: "Pending" },
-    { count: 3, text: "Pending" },
-    { count: 4, text: "Pending" },
+    { count: 2, text: "EXECUTING" },
+    { count: 3, text: "EXECUTED" },
+    { count: 4, text: "COMPLETED" },
   ];
 
   return (
