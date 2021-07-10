@@ -1,0 +1,31 @@
+.main-header {
+  width: 100%;
+}
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.header-option {
+  margin-top: 10px;
+  background-color: rgb(66, 65, 65);
+  color: aliceblue;
+  width: 180px;
+  padding: 8px 0;
+  text-align: center;
+  font-weight: bold;
+  margin-left: 20px;
+  font-size: 18px;
+  border-radius: 10px;
+}
+.sub-header {
+  margin-top: 40px;
+  font-weight: bold;
+  font-size: 18px;
+  padding-bottom: 5px;
+  border-bottom: 3px solid rgb(201, 201, 201);
+}
+
+.sub-header span:nth-child(2) {
+  margin-left: 50px;
+}

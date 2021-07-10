@@ -1,0 +1,47 @@
+.tableHeader {
+  margin-left: 20px;
+  margin-right: 10px;
+  height: 30px;
+  background-color: rgb(139, 139, 139);
+  margin-top: 10px;
+  padding: 13px 20px;
+  display: flex;
+}
+.tableHeader-content1 {
+  height: 100%;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.tableHeader-content1:not(:last-child) {
+  border-right: 2px solid white;
+}
+
+.content1-btn {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: black;
+  position: relative;
+}
+.content1-btn::before {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  border: 1px solid red;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.tableHeader-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.avatar-info {
+  margin-left: 16px;
+}

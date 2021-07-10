@@ -1,0 +1,46 @@
+.productTable {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+table {
+  width: 70%;
+}
+.table-head {
+  background-color: black !important;
+  color: white;
+  height: 40px;
+}
+.table-head th:first-child {
+  width: 40px;
+}
+tr {
+  height: 40px;
+}
+tr td:first-child {
+  text-align: center;
+}
+tr td:nth-child(5) {
+  text-align: center;
+}
+tr td:nth-child(3) {
+  text-align: center;
+}
+tr td:not(:first-child :last-child) {
+  padding-left: 10px;
+}
+.table-icon {
+  background-color: white;
+  padding-left: 10px;
+  font-size: 18px;
+}
+tr:nth-child(even) {
+  background-color: rgb(216, 216, 216);
+}
+tr:nth-child(odd) {
+  background-color: rgb(245, 245, 245);
+}
+
+.productTable-image {
+  width: 30px;
+  height: 40px;
+}
