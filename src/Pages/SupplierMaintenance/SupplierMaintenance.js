@@ -5,7 +5,7 @@ import "./SupplierMaintenance.css";
 function SupplierMaintenance() {
   return (
     <Base>
-      <h1>SupplierMaintenance</h1>
+      <h1>Supplier Master Maintenance</h1>
     </Base>
   );
 }

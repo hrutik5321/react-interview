@@ -4,7 +4,7 @@ import Base from "../../layout/Base/Base";
 function InputMaintenance() {
   return (
     <Base>
-      <h1>InputMaintenance</h1>
+      <h1>Agri-Input Master Maintenance</h1>
     </Base>
   );
 }
